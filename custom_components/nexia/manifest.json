@@ -1,10 +1,16 @@
 {
   "domain": "nexia",
   "name": "Nexia/American Standard/Trane (with filter reminders)",
+  "categories": [
+    "climate.thermostats_heating"
+  ],
   "codeowners": [
     "@bdraco"
   ],
   "config_flow": true,
+  "connectivity": [
+    "cloud"
+  ],
   "dhcp": [
     {
       "hostname": "xl857-*",
@@ -20,6 +26,6 @@
   "requirements": [
     "nexia==2.13.0"
   ],
-  "version": "2026.10.4.4",
-  "issue_tracker": "https://github.com/dmccrummen/ha-nexia-filter-reminder/issues"
+  "issue_tracker": "https://github.com/dmccrummen/ha-nexia-filter-reminder/issues",
+  "version": "2026.11.1.1"
 }

@@ -2,7 +2,7 @@
 
 A drop-in replacement for Home Assistant's built-in **Nexia/American Standard/Trane** integration. It adds the thermostat's **filter change reminder**, which the built-in integration doesn't expose. Everything else works the same as the built-in integration.
 
-Based on the Home Assistant **2026.10.4** core integration (nexia library 2.13.0).
+Based on the Home Assistant **2026.11.1** core integration (nexia library 2.13.0).
 
 ## What it adds
 
