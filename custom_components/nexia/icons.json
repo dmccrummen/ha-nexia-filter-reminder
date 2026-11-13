@@ -1,0 +1,60 @@
+{
+  "entity": {
+    "number": {
+      "fan_speed": {
+        "default": "mdi:fan"
+      }
+    },
+    "scene": {
+      "automation": {
+        "default": "mdi:script-text-outline"
+      }
+    },
+    "switch": {
+      "hold": {
+        "default": "mdi:timer",
+        "state": {
+          "on": "mdi:timer-off"
+        }
+      },
+      "filter_reminders": {
+        "default": "mdi:bell-ring",
+        "state": {
+          "off": "mdi:bell-off"
+        }
+      }
+    },
+    "binary_sensor": {
+      "filter_reminder": {
+        "default": "mdi:air-filter"
+      }
+    },
+    "button": {
+      "filter_changed": {
+        "default": "mdi:air-filter"
+      }
+    },
+    "select": {
+      "filter_reminder_frequency": {
+        "default": "mdi:calendar-refresh"
+      },
+      "filter_size": {
+        "default": "mdi:ruler-square"
+      }
+    }
+  },
+  "services": {
+    "set_aircleaner_mode": {
+      "service": "mdi:air-filter"
+    },
+    "set_dehumidify_setpoint": {
+      "service": "mdi:water-percent"
+    },
+    "set_humidify_setpoint": {
+      "service": "mdi:water-percent"
+    },
+    "set_hvac_run_mode": {
+      "service": "mdi:hvac"
+    }
+  }
+}
